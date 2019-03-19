@@ -1,0 +1,76 @@
+[
+  {
+    "name": "flexGrow",
+    "description": "Defines how much a flexbox item should grow if there's space available.",
+    "options": [
+      {
+        "value": 0,
+        "description": "The element will not grow if there's space available. It will only use the space it needs."
+      },
+      {
+        "value": 1,
+        "description": "The element will grow by a factor of 1. It will fill up the remaining space if no other flexbox item has a flex-grow value."
+      },
+      {
+        "value": 2,
+        "description": "Because the flex-grow value is relative, its behaviour depends on the value of the flexbox item siblings."
+      }
+    ]
+  },
+  {
+    "name": "alignContent",
+    "description": "Defines how each line is aligned within a flexbox/grid container. It only applies if flex-wrap: wrap is present, and if there are multiple lines of flexbox/grid items.",
+    "options": [
+      {
+        "value": "stretch",
+        "description": "Each line will stretch to fill the remaining space."
+      },
+      {
+        "value": "flex-start",
+        "description": "Each line will only fill the space it needs. They will all move towards the start of the flexbox/grid container's cross axis."
+      },
+      {
+        "value": "flex-end",
+        "description": "Each line will only fill the space it needs. They will all move towards the end of the flexbox/grid container's cross axis."
+      },
+      {
+        "value": "center",
+        "description": "Each line will only fill the space it needs. They will all move towards the center of the flexbox/grid container's cross axis."
+      },
+      {
+        "value": "space-between",
+        "description": "Each line will only fill the space it needs. The remaining space will appear between the lines."
+      },
+      {
+        "value": "space-around",
+        "description": "Each line will only fill the space it needs. The remaining space will be distributed equally around the lines: before the first line, between the two, and after the last one."
+      }
+    ]
+  },
+  {
+    "name": "alignItems",
+    "description": "Defines how flexbox items are aligned according to the cross axis, within a line of a flexbox container.",
+    "options": [
+      {
+        "value": "flex-start",
+        "description": "The flexbox items are aligned at the start of the cross axis. By default, the cross axis is vertical. This means the flexbox items will be aligned vertically at the top."
+      },
+      {
+        "value": "flex-end",
+        "description": "The flexbox items are aligned at the end of the cross axis. By default, the cross axis is vertical. This means the flexbox items will be aligned vertically at the bottom."
+      },
+      {
+        "value": "center",
+        "description": "The flexbox items are aligned at the center of the cross axis. By default, the cross axis is vertical. This means the flexbox items will be centered vertically."
+      },
+      {
+        "value": "baseline",
+        "description": "The flexbox items are aligned at the baseline of the cross axis. By default, the cross axis is vertical. This means the flexbox items will align themselves in order to have the baseline of their text align along a horizontal line."
+      },
+      {
+        "value": "stretch",
+        "description": "The flexbox items will stretch across the whole cross axis. By default, the cross axis is vertical. This means the flexbox items will fill up the whole vertical space."
+      }
+    ]
+  }
+]

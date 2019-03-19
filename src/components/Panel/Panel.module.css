@@ -1,0 +1,13 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+}
+
+.panel:hover {
+  cursor: pointer;
+  border: 2px solid red;
+  font-weight: bold;
+}
